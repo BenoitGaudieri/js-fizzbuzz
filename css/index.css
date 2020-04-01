@@ -6,6 +6,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    background: linear-gradient(to right, #fdfbfb, #ebedee 70%);
 }
 
 /* General */
@@ -47,6 +48,11 @@ body {
     color: #ff5100;
 }
 
+.p--text-center {
+    text-align: center;
+}
+
+/* Buttons */
 .btn {
     cursor: pointer;
     display: inline-block;
@@ -108,6 +114,7 @@ body {
     border-color: #dc3545;
 }
 
+/* Form */
 .form-control {
     display: inline-block;
     height: 48px;
@@ -128,7 +135,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    text-align: center;
 }
 
 .box {
@@ -138,6 +144,10 @@ body {
     min-width: 400px;
     margin: 0 30px;
     padding: 20px 25px;
+}
+
+.box--square {
+    border-radius: 0;
 }
 
 .balloon {
@@ -163,17 +173,35 @@ body {
     transform: rotate(45deg);
 }
 
-#surname-list li {
-    list-style: none;
-    text-align: left;
-    border-bottom: 3px #ccc solid;
-    border-radius: 20px;
-    margin: 6px 0;
+.too-much {
+    word-spacing: 5px;
+    line-height: 80px;
+    font-size: 50px;
 }
 
-#surname-list li span {
-    margin: 0 10px;
-    font-size: 22px;
+.gradient--blue {
+    background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient--red {
+    text-transform: uppercase;
+    background: linear-gradient(to right, #d03030 0%, #673308 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient--green {
+    background: linear-gradient(to right, #30d078 0%, #436708 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient--gray {
+    background: linear-gradient(to right, #a0a0a0 0%, #585858 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* Animations */
