@@ -2,14 +2,15 @@ var result = "";
 
 for (i = 1; i < 101; i++) {
     if (i % 3 == 0 && i % 5 == 0) {
-        result += " FizzBuzz ";
+        result += " FizzBuzz, ";
     } else if (i % 5 == 0) {
-        result += " Buzz ";
+        result += " Buzz, ";
     } else if (i % 3 == 0) {
-        result += " Fizz ";
+        result += " Fizz, ";
     } else {
-        result += " " + i + " ";
+        result += " " + i + ", ";
     }
 }
 
 console.log(result);
+document.getElementById("output").innerHTML = result;
