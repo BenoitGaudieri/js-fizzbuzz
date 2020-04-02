@@ -19,4 +19,4 @@ for (i = 1; i < 101; i++) {
 console.log(result);
 document.getElementById(
     "output"
-).innerHTML = `<p class='bounce too-much'>${result}</p>`;
+).innerHTML = `<p class='animated swing too-much'>${result}</p>`;

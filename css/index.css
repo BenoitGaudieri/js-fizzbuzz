@@ -204,7 +204,7 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-/* Animations */
+/* Animations
 @keyframes bounce {
     from,
     20%,
@@ -236,4 +236,4 @@ body {
     transform-origin: center bottom;
     animation-duration: 1s;
     animation-fill-mode: both;
-}
+} */
