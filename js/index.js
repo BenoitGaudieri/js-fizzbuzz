@@ -10,9 +10,10 @@ for (i = 1; i < 101; i++) {
     } else {
         result += i;
     }
-    while (i != 100) {
-        result += "<span class='gradient--gray'>, </span>";
-        break;
+    if (i != 100) {
+        result += "<span class='gradient--blk'>, </span>";
+    } else {
+        result += "<span class='gradient--red'>.</span>";
     }
 }
 

@@ -19,12 +19,15 @@ body {
     opacity: 1;
 }
 
-.relative {
+.pos-relative {
     position: relative;
 }
 
-.absolute {
+.abs-center {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
 }
 
 .p--block {
@@ -176,7 +179,7 @@ body {
 .too-much {
     word-spacing: 5px;
     line-height: 80px;
-    font-size: 50px;
+    font-size: 49px;
 }
 
 .gradient--blue {
@@ -200,6 +203,12 @@ body {
 
 .gradient--gray {
     background: linear-gradient(to right, #a0a0a0 0%, #585858 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient--blk {
+    background: linear-gradient(#646464 0%, #000000 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
